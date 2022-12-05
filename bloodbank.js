@@ -25,7 +25,7 @@ function canGiveBlood(donor, recipient){
     } else if (donor == 'AB+' && ABp.includes(recipient)){
         return true;
     }else{
-        return "false";
+        return false;
     }
 }
 
